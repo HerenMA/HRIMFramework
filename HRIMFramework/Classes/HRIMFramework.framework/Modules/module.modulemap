@@ -1,6 +1,0 @@
-framework module HRIMFramework {
-  umbrella header "HRIMFramework.h"
-
-  export *
-  module * { export * }
-}
