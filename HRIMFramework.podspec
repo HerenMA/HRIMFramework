@@ -1,17 +1,17 @@
 Pod::Spec.new do |s|
     s.name         = "HRIMFramework"
     s.summary      = "HerenMA IM framework for iOS."
-    s.version      = "2.0.5"
+    s.version      = "3.0.0"
     s.license      = { :type => "MIT", :file => "LICENSE" }
     s.authors      = { "MONO" => "yinjianjun1@herenit.com" }
     s.homepage     = "https://github.com/herenMA/HRIMFramework"
-    s.source       = { :git => "https://github.com/herenMA/HRIMFramework.git", :tag => s.version }
+    s.source       = { :https => "https://raw.githubusercontent.com/HerenMA/HRIMFramework/master/HRIMFramework_3.0.0.zip", :sha1 => "dc20c5c3864b08c158e8fc16b968190bbe4ac084" }
     s.requires_arc = true
-    s.platform     = :ios, "7.0"
-    s.ios.deployment_target = "7.0"
+    s.platform     = :ios, "8.0"
+    s.ios.deployment_target = "8.0"
     s.frameworks = "Foundation", "UIKit", "AddressBook", "AVFoundation"
-    s.vendored_frameworks = "HRIMFramework/Classes/HRIMFramework.framework"
-    s.resources    = 'HRIMFramework/Assets/HRIMSDK.bundle'
+    s.vendored_frameworks = "HRIMFramework.framework"
+    s.resources    = "HRIMSDK.bundle"
 
     s.dependency 'HRFramework', '~> 1.0.0'
     s.dependency 'HRMJPhotoBrowser', '~> 1.0.2'
