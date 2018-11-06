@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.license      = { :type => "MIT", :file => "LICENSE" }
     s.authors      = { "MONO" => "yinjianjun1@herenit.com" }
     s.homepage     = "https://github.com/herenMA/HRIMFramework"
-    s.source       = { :http => "https://raw.githubusercontent.com/HerenMA/HRIMFramework/master/HRIMFramework_3.0.2.zip", :sha1 => "44bc0e701b43189202c6ca60554b2502d6213d66" }
+    s.source       = { :http => "https://raw.githubusercontent.com/HerenMA/HRIMFramework/master/HRIMFramework_3.0.2.zip", :sha1 => "cf9d232ea39b3861864bd12df88a1d6ef1999cfd" }
     s.requires_arc = true
     s.platform     = :ios, "8.0"
     s.ios.deployment_target = "8.0"
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     s.dependency 'MGSwipeTableCell', '~> 1.5.6'
     s.dependency 'MJRefresh', '~> 3.1.15'
     s.dependency 'SVProgressHUD', '~> 2.1.2'
-    s.dependency 'LBXScan/LBXNative','~> 2.3'
-    s.dependency 'LBXScan/UI','~> 2.3'
+    s.dependency 'LBXScan/LBXNative', '~> 2.3'
+    s.dependency 'LBXScan/UI', '~> 2.3'
     s.dependency 'HHRouter', '~> 0.1.9'
 end
