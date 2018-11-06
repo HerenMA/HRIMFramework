@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
     s.platform     = :ios, "8.0"
     s.ios.deployment_target = "8.0"
     s.frameworks = "Foundation", "UIKit", "AddressBook", "AVFoundation"
-    s.vendored_frameworks = "HRIMFramework.framework"
-    s.resources    = "HRIMSDK.bundle"
+    s.vendored_frameworks = "HRIMFramework_3.0.2/HRIMFramework.framework"
+    s.resources    = "HRIMFramework_3.0.2/HRIMSDK.bundle"
 
     s.dependency 'HRFramework', '~> 1.0.1'
     s.dependency 'HRMJPhotoBrowser', '~> 1.0.2'
