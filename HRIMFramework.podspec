@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
     s.name         = "HRIMFramework"
     s.summary      = "HerenMA IM framework for iOS."
-    s.version      = "3.0.1"
+    s.version      = "3.0.2"
     s.license      = { :type => "MIT", :file => "LICENSE" }
     s.authors      = { "MONO" => "yinjianjun1@herenit.com" }
     s.homepage     = "https://github.com/herenMA/HRIMFramework"
-    s.source       = { :http => "https://raw.githubusercontent.com/HerenMA/HRIMFramework/master/HRIMFramework_3.0.1.zip", :sha1 => "a663156e367e2aa70a69ef230beccf1fe2bdc0bc" }
+    s.source       = { :http => "https://raw.githubusercontent.com/HerenMA/HRIMFramework/master/HRIMFramework_3.0.2.zip", :sha1 => "873dceeb6743f036061aafcba04138ddf5113d56" }
     s.requires_arc = true
     s.platform     = :ios, "8.0"
     s.ios.deployment_target = "8.0"
@@ -13,11 +13,10 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "HRIMFramework.framework"
     s.resources    = "HRIMSDK.bundle"
 
-    s.dependency 'HRFramework', '~> 1.0.0'
+    s.dependency 'HRFramework', '~> 1.0.1'
     s.dependency 'HRMJPhotoBrowser', '~> 1.0.2'
     s.dependency 'HRTIMSDK', '~> 2.5.6'
 
-    s.dependency 'NIMSDK', '~> 3.3.0'
     s.dependency 'KVOController', '~> 1.2.0'
     s.dependency 'HPGrowingTextView', '~> 1.1'
     s.dependency 'JSBadgeView', '~> 1.4.1'
