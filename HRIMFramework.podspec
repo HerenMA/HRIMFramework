@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     s.dependency 'MGSwipeTableCell', '~> 1.5.6'
     s.dependency 'MJRefresh', '~> 3.1.15'
     s.dependency 'SVProgressHUD', '~> 2.1.2'
-    s.dependency 'LBXScan/LBXNative','~> 2.2'
-    s.dependency 'LBXScan/UI','~> 2.2'
+    s.dependency 'LBXScan/LBXNative','~> 2.3'
+    s.dependency 'LBXScan/UI','~> 2.3'
     s.dependency 'HHRouter', '~> 0.1.9'
 end
