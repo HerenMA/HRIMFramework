@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
     s.name         = "HRIMFramework"
     s.summary      = "HerenMA IM framework for iOS."
-    s.version      = "3.0.3"
+    s.version      = "3.0.4"
     s.license      = { :type => "MIT", :file => "LICENSE" }
     s.authors      = { "MONO" => "yinjianjun1@herenit.com" }
     s.homepage     = "https://github.com/HerenMA/HRIMFramework"
-    s.source       = { :http => "https://raw.githubusercontent.com/HerenMA/HRIMFramework/master/HRIMFramework_3.0.3.zip", :sha1 => "b433f8fb6ee43765bdea2dbf73e922382da302ed" }
+    s.source       = { :http => "https://raw.githubusercontent.com/HerenMA/HRIMFramework/master/HRIMFramework_3.0.4.zip", :sha1 => "7779966a8d6fcbfbe60a9528350f6c1b6267af17" }
     s.requires_arc = true
     s.platform     = :ios, "9.0"
     s.ios.deployment_target = "9.0"
