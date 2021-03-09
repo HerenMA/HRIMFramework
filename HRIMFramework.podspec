@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     s.resources    = "HRIMSDK.bundle"
 
     s.dependency 'HRFramework'
-    s.dependency 'HRMJPhotoBrowser/Framework'
+    s.dependency 'MJPhotoBrowser/Framework'
     s.dependency 'TIMSDK'
 
     s.dependency 'KVOController/Framework'
